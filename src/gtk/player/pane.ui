@@ -242,7 +242,7 @@
       <object class="AdwClamp">
         <property name="maximum-size">150px</property>
         <property name="tightening-threshold">100px</property>
-        <property name="margin-bottom">12px</property>
+        <property name="margin-bottom">25px</property>
         <property name="margin-top">100px</property>
         <property name="child">
           <object class="GtkBox">
