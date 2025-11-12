@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<!-- Created with Cambalache 0.96.1 -->
+<cambalache-project version="0.96.0" target_tk="gtk-4.0">
+  <ui template-class="EuphonicaPlayerPane" filename="pane.cmb.ui" sha256="ff142225cef1b1f0aeb8e0c6379c77d7005525d0da064338eff723f7b77c8016"/>
+  <ui template-class="EuphonicaPlayerPane" filename="pane.ui" sha256="ea926f007971007a5976e41b556aacae125a6c940d25231a652d732b55b88502"/>
+</cambalache-project>

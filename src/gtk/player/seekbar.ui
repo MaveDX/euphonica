@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.96.1 -->
 <interface>
+  <!-- interface-name seekbar.ui -->
+  <requires lib="gtk" version="4.18"/>
   <template class="EuphonicaSeekbar" parent="GtkBox">
+    <property name="orientation">vertical</property>
     <property name="spacing">0</property>
-    <property name="orientation">1</property>
     <child>
       <object class="GtkScale" id="seekbar">
-        <property name="draw-value">false</property>
-        <property name="hexpand">true</property>
-        <property name="orientation">0</property>
-        <property name="width-request">120</property>
         <property name="adjustment">
           <object class="GtkAdjustment">
             <property name="lower">0</property>
@@ -16,19 +15,14 @@
             <property name="value">0</property>
           </object>
         </property>
+        <property name="draw-value">false</property>
+        <property name="hexpand">true</property>
+        <property name="orientation">horizontal</property>
+        <property name="width-request">120</property>
       </object>
     </child>
     <child>
       <object class="GtkCenterBox">
-        <property name="hexpand">true</property>
-        <property name="start-widget">
-          <object class="GtkLabel" id="elapsed">
-            <property name="margin-start">11</property>
-            <style>
-              <class name="caption"/>
-            </style>
-          </object>
-        </property>
         <property name="center-widget">
           <object class="GtkBox">
             <property name="spacing">6</property>
@@ -37,6 +31,7 @@
             </child>
             <child>
               <object class="GtkLabel" id="format_desc">
+                <property name="width-chars">5</property>
                 <style>
                   <class name="caption"/>
                 </style>
@@ -47,6 +42,7 @@
             </child>
             <child>
               <object class="GtkLabel" id="bitrate">
+                <property name="width-chars">5</property>
                 <style>
                   <class name="caption"/>
                 </style>
@@ -57,6 +53,17 @@
         <property name="end-widget">
           <object class="GtkLabel" id="duration">
             <property name="margin-end">11</property>
+            <property name="width-chars">5</property>
+            <style>
+              <class name="caption"/>
+            </style>
+          </object>
+        </property>
+        <property name="hexpand">true</property>
+        <property name="start-widget">
+          <object class="GtkLabel" id="elapsed">
+            <property name="margin-start">11</property>
+            <property name="width-chars">5</property>
             <style>
               <class name="caption"/>
             </style>
