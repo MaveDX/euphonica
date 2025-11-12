@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
-<!-- Created with Cambalache 0.96.1 -->
-<cambalache-project version="0.96.0" target_tk="gtk-4.0">
-  <ui template-class="EuphonicaSeekbar" filename="seekbar.ui" sha256="c5e9b23f1b3ea0b58a035a26747fbd79e9aff296fba05ea86d607b1f6b94c9f7"/>
-</cambalache-project>
