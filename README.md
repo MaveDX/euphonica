@@ -1,13 +1,7 @@
 Changes made
 
-Enlarged player window
-<img width="479" height="1004" alt="euphonica" src="https://github.com/user-attachments/assets/aa1eabbf-7c63-4d92-8c73-1b882adbdb6e" />
-
-Regular view window
-Personally never use this view for longer than 10s when changing playlist, does look ugly tho fyi
-<img width="1886" height="992" alt="euphonica3" src="https://github.com/user-attachments/assets/fc89ed7e-5c35-4511-9ff3-2540ffe2109c" />
-
-
+Changed player window slightly
+<img width="517" height="1008" alt="image" src="https://github.com/user-attachments/assets/83eb55f9-b3aa-4869-ba8e-0db6aa31665c" />
 
 
 ![Euphonica icon](data/icons/hicolor/scalable/apps/io.github.htkhiem.Euphonica.svg)
